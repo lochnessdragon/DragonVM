@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonVM", "DragonVM\DragonVM.csproj", "{3620640F-8809-45D4-B474-7A4CAE52D9A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3620640F-8809-45D4-B474-7A4CAE52D9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3620640F-8809-45D4-B474-7A4CAE52D9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3620640F-8809-45D4-B474-7A4CAE52D9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3620640F-8809-45D4-B474-7A4CAE52D9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE0F0283-F4DA-4DC3-8B3B-BE026A8B230A}
+	EndGlobalSection
+EndGlobal
