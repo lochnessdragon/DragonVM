@@ -17,29 +17,32 @@ namespace Dragon
     class VM
     {
         public VMSTATE state { get; set; }
-        string code;
+        int[] instructions;
 
-        public VM(string code)
+        public VM(int[] instructions)
         {
-            this.code = code;
+            this.instructions = instructions;
         }
 
         public int start()
         {
             this.state = VMSTATE.START;
 
-            // Load Instructions
+            // Load Instructions into memory
 
             return 0;
         }
 
         public void run()
         {
+            // Run through instructions
+
             this.state = VMSTATE.RUNNING;
         }
 
         public void stop()
         {
+            // End state unload mem
             this.state = VMSTATE.QUIT;
         }
 
