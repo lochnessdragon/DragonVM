@@ -4,10 +4,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DragonVM
+namespace Dragon
 {
+
+    enum VMSTATE
+    {
+        START,
+        RUNNING,
+        QUIT
+    }
+
     class VM
     {
-        
+        public VMSTATE state { get; set; }
+        string code;
+
+        public VM(string code)
+        {
+            this.code = code;
+        }
+
+        public int start()
+        {
+            this.state = VMSTATE.START;
+
+            // Load Instructions
+
+            return 0;
+        }
+
     }
 }
