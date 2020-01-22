@@ -33,5 +33,15 @@ namespace Dragon
             return 0;
         }
 
+        public void run()
+        {
+            this.state = VMSTATE.RUNNING;
+        }
+
+        public void stop()
+        {
+            this.state = VMSTATE.QUIT;
+        }
+
     }
 }
