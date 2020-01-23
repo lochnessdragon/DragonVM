@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,11 +22,11 @@ namespace Dragon
 
         public void ProcessLine(string line)
         {
-            string[] parts = line.Split('+');
+            string[] parts = line.Split('-');
             int total = 0;
             foreach (string part in parts)
             {
-                total += Int32.Parse(part);
+                total -= Int32.Parse(part);
             }
             Console.WriteLine(total);
         }
