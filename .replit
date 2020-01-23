@@ -1,2 +1,2 @@
 language = "csharp"
-run = ""
+run = "chmod +x .replit.sh && ./.replit.sh"
